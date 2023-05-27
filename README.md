@@ -12,6 +12,7 @@
     - [Visual Studio Code](#visual-studio-code)
       - [`Local` render](#local-render)
       - [`PlantUMLServer` render](#plantumlserver-render)
+    - [IntelliJ IDEA](#intellij-idea)
   - [Resources](#resources)
 
 ## Installation and Running
@@ -158,6 +159,20 @@ Plantuml                        : @startuml..Alice -> Bob: test..@enduml...Plant
 - Settings
   - `plantuml.server`: URL of your PlantUML server
   - `plantuml.render`: `PlantUMLServer`
+
+### IntelliJ IDEA
+
+- Plugin: <https://plugins.jetbrains.com/plugin/7017-plantuml-integration>
+- See [plugin documentation](https://github.com/esteinberg/plantuml4idea#plantuml4idea)
+- Install the plugin through the IDE: IDE and Project Settings > Plugins...
+- Notes
+  - bundles `plantuml.jar`
+  - support local and remote rendering
+  - preview
+    - rendered in SVG by default
+    - updates quickly
+    - clicking on text in diagram highlights text occurrences in source code
+    - clicking on text in source code highlights in diagram (if enabled through settings)
 
 ## Resources
 
